@@ -9,7 +9,7 @@ import random
 def main(args):
   candidates = args
   for i in range(0, len(candidates)):
-    print candidates[i], (random.choice(['✊', '✌️', '✋'])).decode('utf-8')
+    print candidates[i].decode('utf-8'), (random.choice(['✊', '✌️', '✋'])).decode('utf-8')
 
 if __name__ == '__main__':
   sys.stdout = codecs.getwriter('utf_8')(sys.stdout)
