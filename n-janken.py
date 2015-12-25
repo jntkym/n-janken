@@ -10,6 +10,7 @@ def main(args):
   candidates = args
   for i in range(0, len(candidates)):
     print candidates[i].decode('utf-8'), (random.choice(['✊', '✌️', '✋'])).decode('utf-8')
+  # TODO: implement "aiko"
 
 if __name__ == '__main__':
   sys.stdout = codecs.getwriter('utf_8')(sys.stdout)
