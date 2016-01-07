@@ -15,9 +15,8 @@ def main(args):
 if __name__ == '__main__':
   sys.stdout = codecs.getwriter('utf_8')(sys.stdout)
 
-  # TODO: add arg for simple function
   parser = argparse.ArgumentParser()
-  parser.add_argument("-name", help="list of name", nargs='+')
+  parser.add_argument("name", help="list of name", type=str, nargs='+')
   args = parser.parse_args()
 
   main(args.name)
