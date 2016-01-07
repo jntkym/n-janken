@@ -1,7 +1,7 @@
 #n-janken
-a janken supporting script for several people
+a janken supporting script for several candidates
 ##Environment
-Mac OS X
+Mac OS X 
 If you use other OS, please replace OS-dependant encoded symbols(stones, scissors and papers)
 ##How to Use
 ```
